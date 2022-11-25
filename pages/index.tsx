@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to the BCOF Landing Page! Site is under construction...</a>
+          Welcome to the BCOF Landing Page! Site is under construction...
         </h1>
 
         <p className={styles.description}>
