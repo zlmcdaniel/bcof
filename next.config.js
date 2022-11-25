@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    unoptimized: true
+  }
 }
 
 const isGithubActions = process.env.GITHUB_ACTIONS || false
@@ -20,9 +23,6 @@ if (isGithubActions) {
 module.exports = {
   assetPrefix: assetPrefix,
   basePath: basePath,
-  images: {
-    unoptimized: true
-  },
 }
 
 module.exports = nextConfig
