@@ -22,7 +22,7 @@ module.exports = {
   basePath: basePath,
   images: {
     loader: 'akamai',
-    path: '',
+    path: '/',
   },
 }
 
