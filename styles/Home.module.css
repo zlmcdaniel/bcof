@@ -2,10 +2,8 @@
   padding: 0 2rem;
 }
 
-@media screen and (max-width: 320px) {
-  #__next {
-    display: flex
-  }
+#__next {
+  display: flex
 }
 
 .main {
