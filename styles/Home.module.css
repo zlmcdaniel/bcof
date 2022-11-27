@@ -2,6 +2,12 @@
   padding: 0 2rem;
 }
 
+@media screen and (max-width: 320px) {
+  #__next {
+    display: flex
+  }
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
